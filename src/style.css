@@ -26,7 +26,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -38,7 +38,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -54,7 +54,7 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -131,6 +131,10 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.contact-link {
+  color: var(--branding-color);
+}
+
 footer {
   margin: 60px 0;
 }
@@ -170,6 +174,14 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+footer p {
+  text-align: center;
+}
+
+footer p a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -178,13 +190,10 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 18px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .content {
     text-align: center;
     padding: 0;
