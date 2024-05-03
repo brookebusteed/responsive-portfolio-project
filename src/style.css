@@ -201,6 +201,9 @@ footer small a:hover {
     padding: 5px;
     font-size: 12px;
   }
+  .projects {
+    padding: 10px;
+  }
 
   .content {
     text-align: center;
