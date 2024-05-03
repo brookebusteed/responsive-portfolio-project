@@ -213,4 +213,11 @@ footer small a:hover {
   .nav a {
     font-size: 12px;
   }
+  footer .contact-call {
+    padding: 5px 20px;
+    text-align: center;
+  }
+  footer .contact-call p {
+    font-size: 12px;
+  }
 }
