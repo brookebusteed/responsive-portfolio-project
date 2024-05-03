@@ -44,7 +44,6 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
@@ -63,6 +62,7 @@ p {
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+  color: var(--branding-color);
 }
 .content h3 {
   font-size: 24px;
@@ -72,6 +72,7 @@ p {
 }
 .content p {
   font-size: 14px;
+  color: #272142;
 }
 .content {
   margin: 30px;
@@ -140,6 +141,7 @@ footer {
 
 footer .contact-call {
   background-color: var(--secondary-color);
+  color: var(--branding-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -173,12 +175,15 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
-footer p {
+footer small {
   text-align: center;
 }
 
-footer p a {
+footer small a {
   color: var(--branding-color);
+}
+footer small a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 960px) {
