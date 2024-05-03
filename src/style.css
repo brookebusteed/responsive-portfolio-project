@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #c7b299;
+  --secondary-color: #ede4db;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -36,7 +36,6 @@ p {
 }
 
 .hero {
-  background-color: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
 }
@@ -84,7 +83,7 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 15px 50px;
 }
 
 .btn-branding-outline {
