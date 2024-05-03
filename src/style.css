@@ -197,6 +197,10 @@ footer small a:hover {
   h3 {
     font-size: 18px;
   }
+  .hero a {
+    padding: 5px;
+    font-size: 12px;
+  }
 
   .content {
     text-align: center;
